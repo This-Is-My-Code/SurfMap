@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1b83af25b977877af7dc499ed0f66551 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1b83af25b977877af7dc499ed0f66551" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1b83af25b977877af7dc499ed0f66551 = L.map(
+                "map_1b83af25b977877af7dc499ed0f66551",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_175ad9dc323ec2bfd50fec7044de12c2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_175ad9dc323ec2bfd50fec7044de12c2.addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var marker_d140ca468a673f931e9c0853d4c042a0 = L.marker(
+                [30.2783628, -87.5542773],
+                {
+}
+            ).addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var icon_c57be0194e248374ca866f90e1da6471 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d140ca468a673f931e9c0853d4c042a0.setIcon(icon_c57be0194e248374ca866f90e1da6471);
+        
+    
+        var popup_4df05b2413cfd8a09e5186223ecf5031 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebcbb87cb7447ca5aa1fdb4cbbfa7d10 = $(`<div id="html_ebcbb87cb7447ca5aa1fdb4cbbfa7d10" style="width: 100.0%; height: 100.0%;"><b>Alabama Point</b><br>Temperature: 19.0°C</div>`)[0];
+                popup_4df05b2413cfd8a09e5186223ecf5031.setContent(html_ebcbb87cb7447ca5aa1fdb4cbbfa7d10);
+            
+        
+
+        marker_d140ca468a673f931e9c0853d4c042a0.bindPopup(popup_4df05b2413cfd8a09e5186223ecf5031)
+        ;
+
+        
+    
+    
+            marker_d140ca468a673f931e9c0853d4c042a0.bindTooltip(
+                `<div>
+                     Alabama Point
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_126c4351725248a835301472af1e13b0 = L.marker(
+                [29.7396914, -81.471466],
+                {
+}
+            ).addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var icon_b1eefc3207e01c88f671e49df87510a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_126c4351725248a835301472af1e13b0.setIcon(icon_b1eefc3207e01c88f671e49df87510a5);
+        
+    
+        var popup_f2eea7b806a0a4e2a4f1c7e9e2577cdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96ec05ac776200ff0f881e2e31918adc = $(`<div id="html_96ec05ac776200ff0f881e2e31918adc" style="width: 100.0%; height: 100.0%;"><b>Spuds</b><br>Temperature: 19.0°C</div>`)[0];
+                popup_f2eea7b806a0a4e2a4f1c7e9e2577cdc.setContent(html_96ec05ac776200ff0f881e2e31918adc);
+            
+        
+
+        marker_126c4351725248a835301472af1e13b0.bindPopup(popup_f2eea7b806a0a4e2a4f1c7e9e2577cdc)
+        ;
+
+        
+    
+    
+            marker_126c4351725248a835301472af1e13b0.bindTooltip(
+                `<div>
+                     Spuds
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f9a7d0738f4ee28ad5be72703b35a8cf = L.marker(
+                [48.24188055, -122.38814055739653],
+                {
+}
+            ).addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var icon_377e4923a8616e2e4bada52b038c020d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f9a7d0738f4ee28ad5be72703b35a8cf.setIcon(icon_377e4923a8616e2e4bada52b038c020d);
+        
+    
+        var popup_e21fbd2867f25dd36866d3c911ae696d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52eea9805f83061e326298c49efc99b3 = $(`<div id="html_52eea9805f83061e326298c49efc99b3" style="width: 100.0%; height: 100.0%;"><b>West Pass</b><br>Temperature: 18.9°C</div>`)[0];
+                popup_e21fbd2867f25dd36866d3c911ae696d.setContent(html_52eea9805f83061e326298c49efc99b3);
+            
+        
+
+        marker_f9a7d0738f4ee28ad5be72703b35a8cf.bindPopup(popup_e21fbd2867f25dd36866d3c911ae696d)
+        ;
+
+        
+    
+    
+            marker_f9a7d0738f4ee28ad5be72703b35a8cf.bindTooltip(
+                `<div>
+                     West Pass
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_21fb72dc92fb354209da3169a0d2f26d = L.marker(
+                [30.247340400134583, -88.12634282412185],
+                {
+}
+            ).addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var icon_b2bd98d3f120822232a2cc9843d2e776 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_21fb72dc92fb354209da3169a0d2f26d.setIcon(icon_b2bd98d3f120822232a2cc9843d2e776);
+        
+    
+        var popup_ebe36684369466518c55093b9b8b279a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_472de7d845a406c2de47b4c1b65f2fde = $(`<div id="html_472de7d845a406c2de47b4c1b65f2fde" style="width: 100.0%; height: 100.0%;"><b>Dauphin Island Pier</b><br>Temperature: 18.0°C</div>`)[0];
+                popup_ebe36684369466518c55093b9b8b279a.setContent(html_472de7d845a406c2de47b4c1b65f2fde);
+            
+        
+
+        marker_21fb72dc92fb354209da3169a0d2f26d.bindPopup(popup_ebe36684369466518c55093b9b8b279a)
+        ;
+
+        
+    
+    
+            marker_21fb72dc92fb354209da3169a0d2f26d.bindTooltip(
+                `<div>
+                     Dauphin Island Pier
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b109733b0d3bd0ee60b7ce41be5a585 = L.marker(
+                [31.153194049204036, -97.91595142489342],
+                {
+}
+            ).addTo(map_1b83af25b977877af7dc499ed0f66551);
+        
+    
+            var icon_b18d825af6d2458279c7b8c021b7484a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9b109733b0d3bd0ee60b7ce41be5a585.setIcon(icon_b18d825af6d2458279c7b8c021b7484a);
+        
+    
+        var popup_43008b1e937661a3182d2f5b75a47c93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_421ab2fa3b48e632ab225076206c4b2a = $(`<div id="html_421ab2fa3b48e632ab225076206c4b2a" style="width: 100.0%; height: 100.0%;"><b>Terry s Cove</b><br>Temperature: 19.0°C</div>`)[0];
+                popup_43008b1e937661a3182d2f5b75a47c93.setContent(html_421ab2fa3b48e632ab225076206c4b2a);
+            
+        
+
+        marker_9b109733b0d3bd0ee60b7ce41be5a585.bindPopup(popup_43008b1e937661a3182d2f5b75a47c93)
+        ;
+
+        
+    
+    
+            marker_9b109733b0d3bd0ee60b7ce41be5a585.bindTooltip(
+                `<div>
+                     Terry s Cove
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
